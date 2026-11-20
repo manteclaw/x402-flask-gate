@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Environment / secrets — never commit these
+.env
+
+# x402 replay-protection store (only if X402_TX_STORE points inside the repo)
+x402_tx_store.json
+x402_tx_store.lock
+x402_tx_store.tmp
+
+# Local databases and data files
+*.db
+*.db3
+*.sqlite
+*.sqlite3
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
